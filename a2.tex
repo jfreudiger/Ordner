@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{german}
+\usepackage{inputenc}
+\title{CS102 \LaTeX \"Ubung}
+\date{\today}
+\author{Jessica Freudiger}
+\begin{document}
+\maketitle
+\section{Das ist der erst Abschnitt}
+Hier könnte auch ein anderer Text stehen
+\section{Tabelle}
+Unsere wichtigsten Daten finden Sie in Tabelle 1
+\begin{center}
+\begin{tabular}{c|c|c|c}
+  • & Punkte erhalten & Punkte m\"oglich & \% \\ 
+  \hline
+ Aufgabe 1 & 2 & 4 & 0.5 \\  
+ Aufgabe 2 & 3 & 3 & 1 \\ 
+ Aufgabe 3 & 3 & 3 & 1 \\  
+ \end{tabular} 
+
+Tabelle 1: Diese Tabelle kann auch andere Werte beinhalten.
+\end{center}
+\section{Formeln}
+\subsection{Pythagoras}
+Der Satz des Pythagoras errechnet sich wie folgt: $a^2+b^2=c^2$. Daraus können wir die Länge der Hypothenuse wie folgt berechnen: $c=\sqrt{a^2+b^2}$
+\subsection{Summen}
+Wir können auch die Formel für eine Summe angeben:
+\begin{center}
+$\sum\limits_{i=1}^{n} i=\frac{n*(n+1)}{2}$ 
+\end{center}
+\end{document}
